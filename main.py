@@ -6,8 +6,11 @@ from ai_model import get_class
 
 
 load_dotenv()
+#Вставить свой токен
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+#Вставить свою модель
 MODEL_PATH = os.getenv("MODEL_PATH")
+#Вставить свой labels
 LABELS_PATH = os.getenv("LABELS_PATH")
 
 intents = discord.Intents.default()
